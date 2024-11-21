@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../pages/homePage';
 import { ProductPage } from '../pages/productPage';
-import { CartPage } from '../pages/cartPage';
 
 test('User adds an out of stock product to cart', async ({ page }) => {
   //initializing Page Objects
